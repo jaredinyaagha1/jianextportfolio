@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+// import Clouds1 from '../clouds1.mp4'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Can I please get <a href="https://nextjs.org">some rest?</a>
         </h1>
@@ -20,7 +21,11 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-
+      */}
+      <video className="background-video" autoPlay loop muted>
+        <source src="/clouds1.mp4" type="video/mp4" />
+      </video>
+      {/*
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
@@ -50,7 +55,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
+      </main> */}
 
       <footer className={styles.footer}>
         <a
