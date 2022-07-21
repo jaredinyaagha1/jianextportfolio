@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Col } from 'react-bootstrap';
 // import Clouds1 from '../clouds1.mp4'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
@@ -25,6 +27,28 @@ export default function Home() {
       <video className="background-video" autoPlay loop muted>
         <source src="/clouds1.mp4" type="video/mp4" />
       </video>
+      <nav className="brand-color p-4">
+            <Col className='logoCol'>
+                {/* <a href="#" className="navbar-logo light-shade">JARED I.A</a> */}
+                {/* <Link
+                    activeClass="active"
+                    // to="#top"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-90}
+                    duration={500}
+                    className="navbar-logo light-shade">
+                    JARED.IA
+                </Link> */}
+                What is going to stop me? Is anything?
+            </Col>
+            {/* <Col className='linksCol'>
+                <ul>
+                    <NavLinks isMobile={isMobile} />
+                </ul>
+            </Col> */}
+        </nav>
       {/*
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
