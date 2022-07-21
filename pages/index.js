@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Can I please get <a href="https://nextjs.org">some rest?</a>
         </h1>
 
         <p className={styles.description}>
