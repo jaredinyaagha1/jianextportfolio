@@ -24,7 +24,7 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
       */}
-      <video className="background-video" autoPlay loop muted playsinline >
+      <video className="background-video" autoPlay loop muted playsInline >
         <source src="/clouds1.mp4" type="video/mp4" />
       </video>
       <nav className="brand-color p-4">
