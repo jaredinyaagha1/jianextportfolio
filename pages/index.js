@@ -6,7 +6,7 @@ import Nav from '../components/Nav';
 import ViewCard from '../components/ViewCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Home() {
+ function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +23,8 @@ export default function Home() {
       <ViewCard />
       <ViewCard />
       <ViewCard />
-      
-    </div>
-  )
-}
+      </div>
+      )
+  }
+
+export default Home;
