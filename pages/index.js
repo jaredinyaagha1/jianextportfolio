@@ -1,30 +1,53 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Col } from 'react-bootstrap';
+// import Image from 'next/image'
+// import styles from '../styles/Home.module.css'
+// import { Container, Row, Col, Card } from 'react-bootstrap';
 import Nav from '../components/Nav';
-import ViewCard from '../components/ViewCard';
+import ViewCard from '../components/common/ViewCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
- function Home() {
+//  function Home() {
+//   return (
+// <div className={styles.container}>
+
+      
+//       <Nav />
+//       </div>
+    
+//       )
+//   }
+
+function Home() {
   return (
-    <div className={styles.container}>
+    <div className="App">
       <Head>
         <title>Quit playing with me</title>
         <meta name="description" content="so srs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <video className="background-video" autoPlay loop muted playsinline >
+      <Nav />
+      <video className="background-video" autoPlay loop muted playsInline >
         <source src="/clouds1.mp4" type="video/mp4" />
       </video>
-      <Nav />
-      <ViewCard />
-      <ViewCard />
-      <ViewCard />
-      <ViewCard />
-      </div>
-      )
-  }
+      <main>
+        <style type='text/css'>
+          {`
+.view {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+`}
+
+        </style>
+        <ViewCard />
+        <ViewCard />
+        <ViewCard />
+      {/* <Footer /> */}
+      </main>
+    </div>
+  );
+}
+
+
+// export default App;
 
 export default Home;
