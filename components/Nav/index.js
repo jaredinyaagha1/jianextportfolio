@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLinks from '../Links/NavLinks';
+// import NavLinks from '../Links/NavLinks';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-scroll'
 
@@ -33,7 +33,7 @@ function Nav() {
             </Col>
             <Col className='linksCol'>
                 <ul>
-                    <NavLinks isMobile={isMobile} />
+                    {/* <NavLinks isMobile={isMobile} /> */}
                 </ul>
             </Col>
         </nav>
