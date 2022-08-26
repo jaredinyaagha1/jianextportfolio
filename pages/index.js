@@ -27,7 +27,7 @@ function Home() {
       </Head>
       <Nav />
       <video className="background-video" autoPlay loop muted playsInline >
-        <source src="/clouds1.mp4" type="video/mp4" />
+        <source src="/videos/clouds1.mp4" type="video/mp4" />
       </video>
       <main>
         <style type='text/css'>
@@ -38,8 +38,6 @@ function Home() {
 `}
 
         </style>
-        <ViewCard />
-        <ViewCard />
         <ViewCard />
       {/* <Footer /> */}
       </main>

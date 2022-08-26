@@ -1,12 +1,20 @@
 import React from 'react';
+import Home from '../../../pages/Home/index';
+import About from '../../../pages/About/index';
+import Projects from '../../../pages/Projects/index';
+import Contact from '../../../pages/Contact/index'
 import { Card } from 'react-bootstrap';
 
 function ViewCard() {
 
     return(
-        <Card className="view d-flex align-items-center justify-content-center p-4" id="about">
-            never doubt your abilities
-        </Card>
+        <div>
+        <Home id="home" />
+        <About id="about" />
+        <Projects id="projects" />
+        {/* <Services /> */}
+        <Contact id="contact" />
+        </div>
     )
 }
 
