@@ -1,6 +1,6 @@
 // import profilePic from '../../images/profile.jpg';
 // import SocialLinks from '../../Links/SocialLinks/index.js';
-// import CTA from '../../Links/CTA/index.js';
+import CTA from '../../components/links/CTA/index';
 import Image from "next/image";
 import { Container, Row, Col, Card } from "react-bootstrap";
 // import '../../../index.scss';
@@ -28,7 +28,7 @@ const Home = () => {
           </h2>
           <h4 className="title1"> ELECTRICAL ENGINEER </h4>
           <h4 className="title1"> ENTREPRENEUR </h4>
-          <div className="mt-5">{/* <CTA /> */}</div>
+          <div className="mt-5"><CTA /></div>
           {/* <Row>
                             <Col>
                                 <Button href="#contact">LET'S TALK</Button>
